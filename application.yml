@@ -5,11 +5,11 @@ spring:
 ---
 spring: 
     profiles: dev #开发环境
-        application: 
-            name: cloud1-config-aishu-dev
+    application: 
+        name: cloud1-config-aishu-dev
 ---
 spring: 
     profiles: test #测试环境
-        application: 
-            name: cloud1-config-aishu-test
+    application: 
+        name: cloud1-config-aishu-test
 # 请保存为UTF-8格式
